@@ -11,24 +11,27 @@ a {
     list-style: none;
 }
 header {
-    background-color: #FFFFFF;
+    position: absolute;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
 }
 .header-logo {
     font-family: 'Raleway'; 
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        /* identical to box height */
-        letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
     color: #2196F3;
 }
 
 .header-list-item-link {
     font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .list-active-link {
@@ -40,28 +43,69 @@ header {
 
 .main{
     position: absolute;
-        width: 1600px;
-        height: 600px;
-        left: 0px;
-        top: 80px;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
     background: #2F303A;
 }
 .main-h1 {
     font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
-     color: #FFFFFF;
-}
-.main-button {
-    font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
     color: #FFFFFF;
 }
-
+.main-button {
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.section-list {
+    border-color: #FFFFFF;
+}
+.section-list-h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.section-list-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.section2-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.section3-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+footer {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background: #2F303A;
+}
