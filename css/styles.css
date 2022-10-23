@@ -48,12 +48,14 @@ header {
     background: #2F303A;
 }
 .main-h1 {
+    font-family: 'Roboto';
+    font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: #FFFFFF; 
 }
 .main-button {
     position: absolute;
@@ -66,7 +68,7 @@ header {
     border-radius: 4px;
 }
 
-.section-list {
+.section {
     background: #F5F5F5;
 }
 .section-list-h3 {
@@ -129,3 +131,4 @@ header {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
