@@ -1,217 +1,202 @@
-.body {
-    font-family: "Roboto" , sans-serif;
-    color : black;
+:root {
+    --main-color:#212121;
+    --second-color: #2196F3;
+}
+.header-item :hover {
+    color: var(--second-color)
+}
+.contact-list :hover {
+    color: var(--second-color)
+}
+.adress-list :hover {
+    color:var(--second-color)
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: var(--main-color);
 }
 a {
     text-decoration: none;
-}
-.list {
-    list-style: none;
+    color: currentColor; 
 }
 .link {
     text-decoration: none;
 }
+.list {
+    text-decoration: none;
+}
 
-.header {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-}
 .header-logo {
-    font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        letter-spacing: 0.03em;
-        color: #2196F3;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
 }
-.header-item {
+.logo-web {
+    color: var(--second-color);
+}
+.header-item{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-color);
 }
+
 .header-link-studio {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--second-color);
 }
+
 .contact-list-mail {
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--second-color);
 }
- /*Index*/
-.main {
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
+
+/*Index*/
+.two-part {
     background: #2F303A;
 }
+
 .main-decision {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: calc(60 / 44);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .main-button {
-    width: 216px;
-    height: 50px;
-    left: 692px;
-    top: 430px;
-    background: #2196F3;
+    font-family: 'Roboto';
+    background:  var(--second-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
 .section-list {
-    background: #F5F5F5;
-}
-.section-item-first {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
-}
-.section-item-second {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
-}
-.section-doing {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-.section-three {
-    width: 1600px;
-    height: 648px;
-    left: 0px;
-    top: 1446px;
-    background: #F5F4FA;
-}
-.section-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-.section-team-item {
-    width: 270px;
-    height: 368px;
-    left: 215px;
-    top: 1632px;
     background: #FFFFFF;
 }
+.section-item-first {
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.section-item-second {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+}
+.section-two {
+    background-color: #FFFFFF;
+}
+.section-doing {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #FFFFFF;
+}
+.section-doing-list {
+    background-color: #FFFFFF;
+}
+
+.section-three {
+    background: #F5F4FA;
+}
+
+.section-team {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
 .section-team-img {
-    width: 270px;
-    height: 260px;
-    left: 215px;
-    top: 1632px;
-    background: url(4853.jpg);
     border-radius: 0px;
 }
+
 .section-team-name {
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: calc(19 / 16);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--main-color);
 }
+
 .section-team-who {
     font-size: 16px;
-    line-height: 19px;
+    line-height: calc(19 / 16);
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
-/*Portfolio*/ 
+/*Portfolio*/
 .mail-list {
+    font-family: 'Roboto';
     cursor: pointer;
 }
+
 .main-item-button {
-    width: 112px;
-    height: 38px;
-    left: 726px;
-    top: 174px;
     background: #F5F4FA;
     border-radius: 4px;
 }
+
 .main-item-button-all {
-    width: 73px;
-    height: 38px;
-    left: 512px;
-    top: 174px;
-    background: #2196F3;
+    background: var(--second-color);
 }
+
 .section-option-list {
-    width: 370px;
-    height: 404px;
-    left: 215px;
-    top: 262px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
 }
-.option-item-img {
-    width: 370px;
-    height: 294px;
-    left: 215px;
-    top: 262px;
-}
+
 .option-item-name {
-    font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: calc(36 / 18);
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--main-color);
 }
+
 .option-item-what {
-    font-weight: 400;
     font-size: 16px;
-    line-height: 30px;
+    line-height: calc(30 / 16);
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 .footer {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2094px;
     background: #2F303A;
 }
+
 .footer-logo {
-    font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: calc(31 / 26);
     letter-spacing: 0.03em;
-    color: #2196F3;
+}
+.footer-logo-web {
+    color:var(--second-color);
+}
+.footer-logo-studio {
+    color: rgba(255, 255, 255, 1);
 }
 .adress-list {
-    font-weight: 400;
+    font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: calc(24 / 14);
     letter-spacing: 0.03em;
 }
 .adress-item-map {
