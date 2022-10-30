@@ -2,13 +2,13 @@
     --main-color:#212121;
     --second-color: #2196F3;
 }
-.header-item :hover {
+.header-item :hover, .header-item :focus {
     color: var(--second-color)
 }
 .contact-list :hover {
     color: var(--second-color)
 }
-.adress-list :hover {
+.adress-list :hover, .adress-list :focus {
     color:var(--second-color)
 }
 body {
@@ -31,9 +31,15 @@ a {
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    font-style: normal;
 }
 .logo-web {
     color: var(--second-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 26px;
+    line-height: calc(31 / 26);
 }
 .header-item{
     font-weight: 500;
@@ -42,7 +48,13 @@ a {
     letter-spacing: 0.02em;
     color: var(--main-color);
 }
-
+.header-item-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #212121;
+}
 .header-link-studio {
     font-weight: 500;
     font-size: 14px;
@@ -50,13 +62,19 @@ a {
     letter-spacing: 0.02em;
     color: var(--second-color);
 }
-
 .contact-list-mail {
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
     color: var(--second-color);
+}
+.contact-list-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #757575;
 }
 
 /*Index*/
@@ -79,6 +97,12 @@ a {
     background:  var(--second-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
 .section-list {
@@ -186,6 +210,8 @@ a {
     font-size: 26px;
     line-height: calc(31 / 26);
     letter-spacing: 0.03em;
+    font-family: 'Raleway';
+    font-style: normal;
 }
 .footer-logo-web {
     color:var(--second-color);
@@ -202,6 +228,9 @@ a {
 .adress-item-map {
     color: #FFFFFF;
 }
-.adress-item-map .adress-item-tel {
-    color: rgba(255, 255, 255, 0.6);
+.adress-item-mail{
+    color: rgba(255, 255, 255, 0.6);;
+}
+.adress-item-tel {
+    color: rgba(255, 255, 255, 0.6);;
 }
